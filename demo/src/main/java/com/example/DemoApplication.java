@@ -5,10 +5,8 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import springfox.documentation.swagger2.annotations.EnableSwagger2;
-
 @SpringBootApplication
-@MapperScan(basePackages = {"com.example.test"})
+@MapperScan(basePackages = {"com.example.test","com.example.admin"})
 public class DemoApplication {
 
 	public static void main(String[] args) {
